@@ -3,15 +3,15 @@
 - **[OSPREY v1.0](/specification/OSPREY-transport-layer-specification-v1.0.md)**
 
 #### Network layer
-- [PJON (Padded Jittering Operative Network) v4.0](https://github.com/gioblu/PJON/specification/PJON-protocol-specification-v4.0.md)
-- [Network services list](https://github.com/gioblu/PJON/specification/PJON-network-services-list.md)
+- [PJON (Padded Jittering Operative Network) v4.0](https://github.com/gioblu/PJON/tree/master/specification/PJON-protocol-specification-v4.0.md)
+- [Network services list](https://github.com/gioblu/PJON/tree/master/specification/PJON-network-services-list.md)
 
 #### Data link layer
-- [PJDL (Padded Jittering Data Link) v5.0](https://github.com/gioblu/PJON/src/strategies/SoftwareBitBang/specification/PJDL-specification-v5.0.md)
-- [PJDLR (Padded Jittering Data Link over Radio) v3.0](https://github.com/gioblu/PJON/src/strategies/OverSampling/specification/PJDLR-specification-v3.0.md)
-- [PJDLS (Padded Jittering Data Link byte Stuffed) v2.0](https://github.com/gioblu/PJON/src/strategies/AnalogSampling/specification/PJDLS-specification-v2.0.md)
-- [TSDL (Tardy Serial Data Link) v3.0](https://github.com/gioblu/PJON/src/strategies/ThroughSerial/specification/TSDL-specification-v3.0.md)
-- [SFSP (Secure Frame Separation Protocol) v1.0](https://github.com/gioblu/PJON/specification/SFSP-frame-separation-specification-v1.0.md)
+- [PJDL (Padded Jittering Data Link) v5.0](https://github.com/gioblu/PJON/tree/master/src/strategies/SoftwareBitBang/specification/PJDL-specification-v5.0.md)
+- [PJDLR (Padded Jittering Data Link over Radio) v3.0](https://github.com/gioblu/PJON/tree/master/src/strategies/OverSampling/specification/PJDLR-specification-v3.0.md)
+- [PJDLS (Padded Jittering Data Link byte Stuffed) v2.0](https://github.com/gioblu/PJON/tree/master/src/strategies/AnalogSampling/specification/PJDLS-specification-v2.0.md)
+- [TSDL (Tardy Serial Data Link) v3.0](https://github.com/gioblu/PJON/tree/master/src/strategies/ThroughSerial/specification/TSDL-specification-v3.0.md)
+- [SFSP (Secure Frame Separation Protocol) v1.0](https://github.com/gioblu/PJON/tree/master/specification/SFSP-frame-separation-specification-v1.0.md)
 
 ---
 
