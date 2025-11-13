@@ -49,7 +49,7 @@ The graph below shows the conceptual model that characterizes and standardizes t
 |- Core features --------------------------------|
 | Resource transfer                              |
 | Resource Discovery and Advertisement           |
-| Network configuration propagation (8 bits)     |
+| Network configuration exchange                 |
 | Process identification (16 bits)               |
 | Automatic payload segmentation (96 bits)       |
 | Out-of-order delivery tolerance                |
@@ -145,8 +145,7 @@ Peer 44 requests the resource `README.md` from peer 45:
  8 bits   16 bits   32 bits      8 bits   72 bits        
 
 ```
-
-Peer 45 responds with a single-segment transmission (type 4) containing the `README.md` file:
+When a request is received the PJON network configuration (the packet header) used by the requester will be used for the following exchange. Peer 45 responds with a single-segment transmission (type 4) containing the `README.md` file:
 ```cpp
  ________________________________________________________________
 |  TYPE  |  TX ID  | SEGMENT ID |  CRC8  | PAYLOAD     |  CRC32  |
